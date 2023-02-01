@@ -3,7 +3,7 @@
     <h3>3.1. Write a simple PHP script to print your information (Name and your groupid). </h3>
 <?php
 echo "Aliakbar Kamali Andani <br>";
-echo "BBCA22A-1004<br>";
+echo "bbcap22_12<br>";
 ?>
 <h1>3.2. Write PHP code to display the following message.</h1>
 <?php
