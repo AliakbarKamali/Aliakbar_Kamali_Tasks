@@ -21,7 +21,7 @@ echo "Hello world! My name is \"David\"";
 <?php
 echo Date("d.m.Y")
 ?>
-<h1>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document. </h1>
+<h1>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document. </h1><h1>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document. </h1>
 
 
 </body>
