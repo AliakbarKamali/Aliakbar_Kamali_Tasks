@@ -1,4 +1,4 @@
-<?php include "header.php";?>
+<?php $title = "Home: Hamk oy"; include "header.php";?>
 
 <h1>Some content</h1>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
