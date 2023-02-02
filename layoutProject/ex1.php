@@ -1,5 +1,6 @@
-<?php $title = "Exercise1: Hamk oy"; include "header.php";?>
-    
+
+<?php $style = "ex1_style"; $title = "Catffee: Exercise1"; include "header.php";?>
+<section>
     <h3>3.1. Write a simple PHP script to print your information (Name and your groupid). </h3>
 <?php
 echo "Aliakbar Kamali Andani <br>";
@@ -40,4 +41,5 @@ echo "<table>
 <img src="images/Docker.jpg" alt="docker" width="90%   ">
 
 <h3>5. Commit all changes and push all changes you have done to your GitHub repository. The task is then completed. </h3>
+</section>
 <?php include "footer.php";?>

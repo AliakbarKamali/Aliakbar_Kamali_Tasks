@@ -22,6 +22,7 @@
      <div class = "navItem2">Catffee</div>
     </div>
     <div class = "navRest">
+    <div class = "navItem7"><a href="ex1.php">Exercise1</a></div>
       <div class = "navItem3"><a href="aboutus.php">About us</a></div>
       <div class = "navItem4"><a href="menu.php">Menu</a></div>
       <div class = "navItem5"><a href="cats.php">Cats</a></div>

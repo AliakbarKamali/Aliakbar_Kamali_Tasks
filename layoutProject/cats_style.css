@@ -45,7 +45,8 @@ body{
 }
 .navItem3{
     font-size: 32px;
-    color: white
+    color: white;
+    margin-left: 30px;
 }
 .navItem4{
     font-size: 32px;
@@ -64,9 +65,10 @@ body{
     margin-left: 30px;
 }
 
-.navItem3 a{
+.navItem3 a{ 
     font-size: 32px;
-    color: white
+    color: white;
+    margin-left: 30px;
 }
 .navItem4 a{ 
     font-size: 32px;
@@ -80,6 +82,17 @@ body{
     margin-left: 30px;
 }
 .navItem6 a{
+    font-size: 32px;
+    color: white;
+    margin-left: 30px;
+}
+.navItem7{
+    font-size: 32px;
+    color: white;
+    margin-left: 30px;
+}
+
+.navItem7 a{
     font-size: 32px;
     color: white;
     margin-left: 30px;
@@ -226,10 +239,7 @@ a:active { text-decoration: none; }
         align-items: center;
         flex-grow: 1;
     }
-    .navItem3{
-        font-size: 20px;
-        color:white
-    }
+
     .navItem4{
         font-size: 20px;
         color: white;
@@ -246,10 +256,15 @@ a:active { text-decoration: none; }
         color: white;
         margin-left: 10px;}
 
-
+        .navItem3{
+            font-size: 20px;
+            color: white;
+            margin-left: 10px;
+        }
         .navItem3 a{
             font-size: 20px;
-            color:white
+            color: white;
+            margin-left: 10px;
         }
         .navItem4 a{
             font-size: 20px;
@@ -266,6 +281,17 @@ a:active { text-decoration: none; }
             font-size: 20px;
             color: white;
             margin-left: 10px;}
+            
+        .navItem7{
+                font-size: 20px;
+                color: white;
+                margin-left: 10px;
+            }
+        .navItem7 a{
+                font-size: 20px;
+                color: white;
+                margin-left: 10px;
+            }
 
 
         a:link { text-decoration: none; }

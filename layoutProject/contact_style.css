@@ -45,13 +45,16 @@ body{
     flex-grow: 1;
 }
 .navItem3{
-    font-size: 32px;
-    color: white;
-}
+    font-size: 38px;
 
-.navItem3 a{
-    font-size: 32px;
     color: white;
+    margin-left: 30px;
+}
+.navItem3 a{
+ font-size: 38px;
+ margin-left: 30px;
+
+ color: white;
 }
 
 .navItem4{
@@ -90,6 +93,19 @@ body{
     font-weight: bold;
     color: #007777
 }
+
+.navItem7{
+    font-size: 32px;
+    color: white;
+    margin-left: 30px;
+}
+
+.navItem7 a{
+    font-size: 32px;
+    color: white;
+    margin-left: 30px;
+}
+
 a:link { text-decoration: none; }
 
 a:visited { text-decoration: none; }
@@ -238,10 +254,12 @@ a:active { text-decoration: none; }
     .navItem3{
         font-size: 20px;
         color: white;
+        margin-left: 10px;
     }
     .navItem3 a{
-        font-size: 19px;
+        font-size: 20px;
         color: white;
+        margin-left: 10px;
     }
 
     .navItem4{
@@ -278,6 +296,17 @@ a:active { text-decoration: none; }
         font-size: 22px;
         color: #007777;
         font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .navItem7{
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+    .navItem7 a{
+        font-size: 20px;
+        color: white;
         margin-left: 10px;
     }
 
