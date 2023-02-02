@@ -1,54 +1,30 @@
-<!DOCTYPE html>
-<html>
+
+    <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $title ?></title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
-<style>
-  a, .nav-link,.navbar-brand {
-    color: white;
-}
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+ 
+    <link rel="stylesheet" href="heder_style.css">
+    <link rel="stylesheet" href="<?php echo $style ?>.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,600&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+  
+
 </head>
 <body>
-  <div class="container" >
-    <div class="row">
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"> Aliakbar Kamali</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Exercise1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact us</a>
-        </li>
-        
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+   <nav>
+    <div class = "logoText">
+     <div class = "navItem1"><img src="./images/logo.png" alt="Logo"></div>
+     <div class = "navItem2">Catffee</div>
     </div>
-  </div>
-</nav>
-</div> 
-  <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
-    <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
-      <h3>List of Tasks</h3>
-      some thing here
-    </div>
-    <div class="col-sm-9">
+    <div class = "navRest">
+      <div class = "navItem3"><a href="index.php">About us</a></div>
+      <div class = "navItem4"><a href="menu.php">Menu</a></div>
+      <div class = "navItem5"><a href="cats.php">Cats</a></div>
+      <div class = "navItem6"><a href="contact.php">Contact</a></div>
+     </div>
+    </nav>

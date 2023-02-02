@@ -1,15 +1,12 @@
-</div>
-  </div>
-  <div class="row">
-<footer style="background-color: rgb(65, 7, 109); color: white;">
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright
-  </div>
-  <!-- Copyright -->
+   <footer>
+    <div class = "footer">
+        <div class = "footerInsta"><i class="fa-brands fa-instagram"></i></div>
+        <div class = "footerFB"><i class="fa-brands fa-facebook"></i></div>
+        <div class = "footerTwitter"><i class="fa-brands fa-twitter"></i></div>
 
-</footer></div>
-</div>
+    </div>
+    </footer>
 
 <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
