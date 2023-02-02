@@ -37,7 +37,7 @@ echo "<table>
 </table>";
 ?>
 <h3>4. Take a screenshot that verifies, you have set up the development environment and include it as an image in ex1.php</h3>
-<img src="Docker.jpg" alt="docker" width="90%   ">
+<img src="images\Docker.jpg" alt="docker" width="90%   ">
 
 <h3>5. Commit all changes and push all changes you have done to your GitHub repository. The task is then completed. </h3>
 <?php include "footer.php";?>
