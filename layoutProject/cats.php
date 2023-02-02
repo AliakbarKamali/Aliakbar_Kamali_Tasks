@@ -1,4 +1,4 @@
-<?php $style = "cats_style"; $title = "Exercise1: Hamk oy"; include "header.php";?>
+<?php $style = "cats_style"; $title = "Catffee: cats"; include "header.php";?>
    <section>
     <div class = "coverImage">
        <img class="img-fluid" src="images/background7.jpeg" alt="coverImage">

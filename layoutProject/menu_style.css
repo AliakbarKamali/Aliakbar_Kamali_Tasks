@@ -114,29 +114,7 @@ body{
      object-fit: cover;
      vertical-align: bottom;
 
-   }  
-   .footer{
-       background-color: #A4D8CC;
-       height: 123px;
-       color: white;
-       display: flex;
-       align-items: center;
-       
    }
-   .footerInsta{
-       margin-left: 30px;
-       font-size: 38px;
-       
-   }
-   .footerFB{
-       font-size: 38px;
-       margin-left: 30px;
-   }
-   .footerTwitter{
-       font-size: 38px;
-       margin-left: 30px;
-   }
-   
 
 
 .Snacks , .Salads , .Coffee , .Beverages , .Smoothies , .Desserts{

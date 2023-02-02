@@ -1,4 +1,31 @@
    /*footer*/
+  
+.footer{
+    background-color: #A4D8CC;
+    height: 123px;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.footerInsta{
+    margin-left: 30px;
+    font-size: 38px;
+    
+}
+.footerFB{
+    font-size: 38px;
+    margin-left: 30px;
+}
+.footerTwitter{
+    font-size: 38px;
+    margin-left: 30px;
+}
+
+
+
+@media (max-width: 420px){
+
 
    .footer{
     background-color: #A4D8CC;
@@ -20,4 +47,5 @@
 .footerTwitter{
     font-size: 20px;
     margin-left: 10px;
+}
 }

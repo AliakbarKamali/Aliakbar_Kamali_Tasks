@@ -1,4 +1,4 @@
-<?php $style = "menu_style"; $title = "Exercise1: Hamk oy"; include "header.php";?>
+<?php $style = "menu_style"; $title = "Catffee: menu"; include "header.php";?>
    <section>
     
     <div class="container">

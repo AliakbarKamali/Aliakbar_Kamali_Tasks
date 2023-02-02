@@ -1,4 +1,4 @@
-<?php $style = "contact_style"; $title = "Exercise1: Hamk oy"; include "header.php";?>
+<?php $style = "contact_style"; $title = "Catffee: contact"; include "header.php";?>
    <section>
     <img src = "images/pexels-photo-5490818.jpeg"  div class = "coverImage">
     </div>
