@@ -6,12 +6,7 @@
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright
   <p>
-    Last modified: 
-    <?php
-      $file = basename($_SERVER['SCRIPT_FILENAME']);
-      $lastModified = date("F d Y H:i:s.", filemtime($file));
-      echo $lastModified;
-    ?>
+    Last modified on <?php echo date("l, dS F, Y, h:i a", filemtime($_SERVER['SCRIPT_FILENAME'])); ?>
   </p>
   </div>
   <!-- Copyright -->
