@@ -63,10 +63,47 @@
 </h2>
 
 <?php
-  $string1 = "Aliakbar";
+  $string1 = " Aliakbar";
   $string2 = "Kamali Andani";
   $joinedtogether = $string1 . " " . $string2;
-  echo "The length is: " . strlen($joinedtogether);
+  echo "The length of" . $joinedtogether . " is: " . strlen($joinedtogether);
 ?> 
+<h2>
+5. Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and echo statement to output your answer.
+</h2>
+
+<?php
+  $num1 = 298;
+  $num2 = 234;
+  $num3 = 46;
+  $sum = $num1 + $num2 + $num3;
+  echo "The sum of " . $num1 . ", " . $num2 . ", and " . $num3 . " is " . $sum;
+?>
+
+<h2>
+6. Write a PHP script to detect the browser being used to view your pages. (Use predefined variables: $_SERVER)
+</h2>
+
+<?php
+  $userAgent = $_SERVER['HTTP_USER_AGENT'];
+  if (strpos($userAgent, 'Edge') !== false) {
+    echo "You are using Microsoft Edge";
+  } elseif (strpos($userAgent, 'Firefox') !== false) {
+      echo "You are using Mozilla Firefox";
+  } elseif (strpos($userAgent, 'Chrome') !== false) {
+      echo "You are using Google Chrome";
+  } elseif (strpos($userAgent, 'MSIE') !== false) {
+      echo "You are using Internet Explorer";
+  } elseif (strpos($userAgent, 'Safari') !== false) {
+      echo "You are using Apple Safari";
+  } else {
+      echo "Your browser is not recognized";
+  }
+?>
+<h2>
+7. Write a PHP script in the footer section of your universal footer just below the Copyright information to display the last modification time of a file. (Hint: Use predefined variable $_SERVER, basename function  to get the filename , filetime function to get the last modified time & date function to print the date and time)
+</h2>
+
+
 
  <?php include "footer.php" ?>
