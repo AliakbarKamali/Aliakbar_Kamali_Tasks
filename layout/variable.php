@@ -86,8 +86,8 @@
 
 <?php
   $userAgent = $_SERVER['HTTP_USER_AGENT'];
-  if (strpos($userAgent, 'Edge') !== false) {
-    echo "You are using Microsoft Edge";
+  if (strpos($userAgent, 'Edg') !== false) {
+      echo "You are using Microsoft Edge";
   } elseif (strpos($userAgent, 'Firefox') !== false) {
       echo "You are using Mozilla Firefox";
   } elseif (strpos($userAgent, 'Chrome') !== false) {
