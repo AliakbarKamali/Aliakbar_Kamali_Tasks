@@ -70,7 +70,42 @@ echo "Your grade is: " . $grade;
   <input type="submit" name="Submit">
 </form>
 
- 
+<h2>
+5. In task 5, you used $_SERVER['HTTP_USER_AGENT']; to get the browser name. 
+Use Switch statement with strops function to print the name of the browser as below: 
+If someone is using Chrome it should print, you are using Goolge Chrome….
+</h2>
+<?php
+
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+
+switch (true) {
+    case stripos($user_agent, "Edg") == true:
+        echo "You are using Microsoft Edge.";
+    break;
+
+    case stripos($user_agent, "Chrome") == true:
+        echo "You are using Google Chrome.";
+    break;
+
+    case stripos($user_agent, "Firefox") == true:
+    echo "You are using Mozilla Firefox.";
+    break;
+
+    case stripos($user_agent, "Safari") == true:
+        echo "You are using Apple Safari.";
+    break;
+
+    case stripos($user_agent, "Opera") == true:
+        echo "You are using Opera.";
+    break;
+
+    default:
+     echo "Your browser could not be determined.";
+        break;
+}
+
+?>
 
  <?php include "footer.php" ?>
 
