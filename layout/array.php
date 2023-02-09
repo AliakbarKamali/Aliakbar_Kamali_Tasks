@@ -14,16 +14,9 @@ echo "<li>" . $course . "</li>";
 echo "</ul>";
 ?>
 <h2>
-2. The unset() function is used to remove element from the array.
-The var_dump() function is used to dump information about a variable. 
-array_values() is an inbuilt function that 
-returns all the values of an array and not the keys.
-</h2>
-
-
-<h2>
-3. Delete an element from the array below:<br>
-$courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");<br>
+2. The unset() function is used to remove element from the array. The var_dump() function is used to dump information about a variable.  array_values() is an inbuilt function that returns all the values of an array and not the keys.
+Delete an element from the array below:
+$courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 </h2>
 <?php
 $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
@@ -35,8 +28,9 @@ echo "<li>" . $course . "</li>";
 }
 echo "</ul>";
 ?>
+
 <h2>
-Sort the following array <br>
+3. Sort the following array <br>
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");<br>
 a) ascending order sort by value<br>
 b) ascending order sort by Key<br>
@@ -132,7 +126,20 @@ echo "</ul>";
 <h2>
 5. List all your favorite colors and their hexadecimal equivalents. (associative arrays)
 </h2>
+<?php
+$favorite_colors = array(
+  "red" => "#ff0000",
+  "green" => "#00ff00",
+  "blue" => "#0000ff",
+  "purple" => "#800080",
+  "orange" => "#ffa500"
+);
 
+foreach ($favorite_colors as $color => $hex) {
+  echo "My favorite color is $color and its hexadecimal equivalent is $hex";
+  echo "<br>";
+}
+?>
 
  <?php include "footer.php" ?>
 
