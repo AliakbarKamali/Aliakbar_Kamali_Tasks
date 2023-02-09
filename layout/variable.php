@@ -1,4 +1,4 @@
-<?php include "header.php"?>
+<?php $title = "Exercise3: variable"; include "header.php";?>
 
 <h3>Ex3 .In-class Task Variable & Operators 07.02.2023 (variable.php)</h3>
 <h2>

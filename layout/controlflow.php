@@ -1,4 +1,4 @@
-<?php include "header.php"?>
+<?php $title = "Exercise4: controlflow"; include "header.php";?>
 
 <h3>Ex4 .In-class Task Control flow and loops 08.02.2023 (controlflow.php)
 <h2>
