@@ -33,6 +33,7 @@ echo "<ul>";
 foreach ($courses2 as $course) {
 echo "<li>" . $course . "</li>";
 }
+echo "</ul>";
 ?>
 <h2>
 Sort the following array <br>
@@ -41,7 +42,7 @@ a) ascending order sort by value<br>
 b) ascending order sort by Key<br>
 c) descending order sort by Value<br>
 d) descending order sort by Key.
-<h2>
+</h2>
 <table class="table table-bordered table-dark">
   <thead>
     <tr>
@@ -55,7 +56,6 @@ d) descending order sort by Key.
   <tbody>
     <tr>
       <th scope="row"><?php
-echo "</ul>";
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 echo "<ul>";
 foreach ($courses3 as $course) {
@@ -66,7 +66,7 @@ echo "</ul>";
 </th>
       <td>
         <?php
-echo "</ul>";
+
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 sort($courses3);
 echo "<ul>";
@@ -80,7 +80,6 @@ echo "</ul>";
 
       <td>
         <?php
-echo "</ul>";
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 ksort($courses3);
 echo "<ul>";
@@ -92,7 +91,6 @@ echo "</ul>";
 ?>
     </td>
       <td><?php
-echo "</ul>";
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 rsort($courses3);
 echo "<ul>";
@@ -103,7 +101,6 @@ echo "</ul>";
 
 ?></td>
       <td><?php
-echo "</ul>";
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 krsort($courses3);
 echo "<ul>";
@@ -117,6 +114,24 @@ echo "</ul>";
   </tbody>
 </table>  
 
+<h2>
+4. Change the following array's all values to upper case.
+ $courses4=array("php", "html", "javascript", "cms", "project");
+</h2>
+<?php
+$courses4=array("php", "html", "javascript", "cms", "project");
+foreach($courses4 as &$value){
+  $value = strtoupper($value);
+}
+echo "<ul>";
+foreach ($courses4 as $course) {
+echo "<li>" . $course . "</li>";
+}
+echo "</ul>";
+?>
+<h2>
+5. List all your favorite colors and their hexadecimal equivalents. (associative arrays)
+</h2>
 
 
  <?php include "footer.php" ?>
