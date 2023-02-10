@@ -1,7 +1,7 @@
 <?php
 $servername = "db";
 $username = "capp1";
-$password = "A36081368a@";
+$password = "passwordofcapp1";
 $dbname = "capp1";
 
 //creating connection
