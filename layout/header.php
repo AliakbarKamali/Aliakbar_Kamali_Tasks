@@ -25,19 +25,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link" aria-current="page" href="../layout/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Exercise1</a>
+          <a class="nav-link" href="../layout/ex1.php">Exercise1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="variable.php">Exercise3 (variable)</a>
+          <a class="nav-link" href="../layout/variable.php">Exercise3 (variable)</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="controlflow.php">Exercise4 (controlflow)</a>
+          <a class="nav-link" href="../layout/controlflow.php">Exercise4 (controlflow)</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="array.php">Exercise5 (array)</a>
+          <a class="nav-link" href="../layout/array.php">Exercise5 (array)</a>
         </li>
         
       </ul>
