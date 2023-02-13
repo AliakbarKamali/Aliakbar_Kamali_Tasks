@@ -54,10 +54,10 @@
       <h3>List of Tasks</h3>
       <ul class="sidebar">
         <li>
-          <a href="../crud/create.php">Create</a>
+          <a href="../crud1/create.php">Create</a>
         </li>
         <li>
-          <a href="../crud/create.php">Create</a>
+          <a href="../crud1/create.php">Create</a>
         </li>
       some thing here
     </div>
