@@ -52,6 +52,13 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
+      <ul class="sidebar">
+        <li>
+          <a href="../crud/create.php">Create</a>
+        </li>
+        <li>
+          <a href="../crud/create.php">Create</a>
+        </li>
       some thing here
     </div>
     <div class="col-sm-9">
