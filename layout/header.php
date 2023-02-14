@@ -60,6 +60,9 @@
         <a href="../crud1/read.php" style="color: rgb(18, 5, 194);">Retrieve</a>
         </li>
         <li>
+          <a href="../crud1/updatesingle.php" style="color: rgb(18, 5, 194);">Update</a>
+        </li>
+        <li>
           <a href="../crud1/create.php" style="color: rgb(18, 5, 194);">Delete</a>
         </li>
       </ul>
@@ -72,6 +75,9 @@
         <a href="../crud1/read.php" style="color: rgb(18, 5, 194);">Retrieve</a>
         </li>
         <li>
+          <a href="../crud1/updatesingle.php" style="color: rgb(18, 5, 194);">Update</a>
+        </li>
+        <li>
           <a href="../crud1/create.php" style="color: rgb(18, 5, 194);">Delete</a>
         </li>
         </ul>
@@ -82,6 +88,9 @@
         </li>
         <li>
         <a href="../crud1/read.php" style="color: rgb(18, 5, 194);">Retrieve</a>
+        </li>
+        <li>
+          <a href="../crud1/updatesingle.php" style="color: rgb(18, 5, 194);">Update</a>
         </li>
         <li>
           <a href="../crud1/create.php" style="color: rgb(18, 5, 194);">Delete</a>
