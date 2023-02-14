@@ -11,7 +11,7 @@ if($result-> num_rows > 0){
     while($row=$result->fetch_assoc()){
         echo"
     <tr>
-    <td>$row[id]</td>
+    <td><a href='updatesingle.php?=$row[id]' style='color: #ff0000'>$row[id]</a></td>
     <td>$row[fname]</td>
     <td>$row[lname]</td>
     <td>$row[city]</td>

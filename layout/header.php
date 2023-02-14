@@ -59,6 +59,9 @@
         <li>
         <a href="../crud1/read.php" style="color: rgb(18, 5, 194);">Retrieve</a>
         </li>
+        <li>
+          <a href="../crud1/create.php" style="color: rgb(18, 5, 194);">Delete</a>
+        </li>
       </ul>
       <h3>Simple CRUD APP</h3>
       <ul>
@@ -68,6 +71,9 @@
         <li>
         <a href="../crud1/read.php" style="color: rgb(18, 5, 194);">Retrieve</a>
         </li>
+        <li>
+          <a href="../crud1/create.php" style="color: rgb(18, 5, 194);">Delete</a>
+        </li>
         </ul>
       <h3>Simple CRUD APP- InClass</h3>
       <ul>
@@ -76,6 +82,9 @@
         </li>
         <li>
         <a href="../crud1/read.php" style="color: rgb(18, 5, 194);">Retrieve</a>
+        </li>
+        <li>
+          <a href="../crud1/create.php" style="color: rgb(18, 5, 194);">Delete</a>
         </li>
     </ul>
       some thing here
