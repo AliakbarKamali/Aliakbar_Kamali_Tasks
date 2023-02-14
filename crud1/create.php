@@ -28,7 +28,7 @@ if (isset($_POST['submit'])){
         echo "Your information is added successfully";
     }
     else {
-         echo "Error: ". $conn ->error;
+         echo "Error: ". $conn-> $error;
         }
 
 }
