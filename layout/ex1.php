@@ -13,6 +13,12 @@ echo "Hello world! My name is \"David\"";
 <?php
 echo Date("d.m.Y")
 ?>
+<script>
+document.write("Hello world this is javascript ");
+</script>
+<noscript>
+    Please enable javascript to wiew this content;
+</noscript>
 <h1>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document. </h1>
 <?php
 $title1 = "PHP is interesting";
