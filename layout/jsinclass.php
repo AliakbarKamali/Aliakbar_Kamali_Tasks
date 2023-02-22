@@ -12,5 +12,10 @@ include "header.php";
 
 <h2> Change the background color</h2>
 <form> 
-<input type="color" name="background" onchange="changeColor('background', this.value);">
+<input type="color" name="background" onchange="changeFcolor();">
+</form>
+
+<h2> Change the font color</h2>
+<form> 
+<input type="color" name="font" onchange="changeFcolor();">
 </form>

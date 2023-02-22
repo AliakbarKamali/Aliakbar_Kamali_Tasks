@@ -17,10 +17,16 @@ function add(){
 //display 
 
 
-//function to change the background color of the page
-function changeColor(where,newColor){
-if (where == "background"){
+//function to change the font color of the page
+function changeFcolor(){
+let fcolor = document.getElementById('fcolor').value;
 document.body.style.backgroundColor = newColor;
 }
 
+//function to change the background color of the page
+function changeColor(where,newColor){
+    if (where == "background"){
+    document.body.style.backgroundColor = newColor;
+    }
 }
+
